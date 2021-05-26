@@ -26,5 +26,11 @@ pipeline {
                         echo 'deployment stared '
                     }
                 }
+                    stage('prod') {
+
+                    steps {
+                        echo 'deployment stared '
+                    }
+                }
     }
 }
